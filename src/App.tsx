@@ -23,6 +23,9 @@ function App() {
         </div>
       </header>
 
+      {/* Espaçador */}
+      <div className="h-4 md:h-6 bg-black"></div>
+
       {/* Hero Section */}
       <section className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent z-10"></div>
