@@ -26,11 +26,11 @@ function App() {
       {/* Hero Section */}
       <section className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent z-10"></div>
-        <div className="relative h-[600px]">
+        <div className="relative h-[400px] sm:h-[500px] md:h-[700px]">
           <img 
             src={banner}
             alt="NEGO DA VÓ MOTO PEÇAS" 
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain sm:object-cover object-center"
           />
         </div>
         <div className="absolute top-0 left-0 w-full h-full flex items-center z-20">
