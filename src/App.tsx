@@ -9,7 +9,7 @@ function App() {
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
           <div className="flex items-center">
             <Motorcycle className="text-amber-500 mr-2" size={32} />
-            <h1 className="text-2xl md:text-3xl font-bold text-amber-500">Nego da Vo <span className="text-white">Moto Peças</span></h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-amber-500">NEGO DA VÓ <span className="text-white">MOTO PEÇAS</span></h1>
           </div>
           <div className="hidden md:flex items-center space-x-6">
             <a href="#services" className="hover:text-amber-500 transition-colors">Serviços</a>
@@ -29,7 +29,7 @@ function App() {
         <div className="relative h-[600px]">
           <img 
             src={banner}
-            alt="Nego da Vo Moto Peças" 
+            alt="NEGO DA VÓ MOTO PEÇAS" 
             className="w-full h-full object-cover object-center"
           />
         </div>
@@ -371,7 +371,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <Motorcycle className="text-amber-500 mr-2" size={24} />
-              <h2 className="text-xl font-bold text-amber-500">Nego da Vo <span className="text-white">Moto Peças</span></h2>
+              <h2 className="text-xl font-bold text-amber-500">NEGO DA VÓ <span className="text-white">MOTO PEÇAS</span></h2>
             </div>
             
             <div className="text-center md:text-right">
